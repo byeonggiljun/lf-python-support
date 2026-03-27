@@ -32,7 +32,7 @@ class ReactorBase:
         Update the deadline of the currently executing reaction.
         
         Args:
-            invoke_deadline_handler (interval_t): The updated deadline.
+            updated_deadline (interval_t): The updated deadline.
         """        
         # Call the C function through the binding.
         # This idiom is used to invoke C functions bound to the main module and defined
